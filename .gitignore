@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist/
+dist-ssr
+dist-ssr/
+*.local
+frontend/node_modules
+frontend/dist
+frontend/dist/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Virtual environment
+venv/
+env/
+backend/venv/
+backend/env/
+# OS generated files
+Thumbs.db
+
+# Celery beat schedule and log files
+celerybeat-schedule
+celerybeat.log
+backend/celerybeat-schedule
+backend/celerybeat.log
+backend/celerybeat.pid
+backend/celerybeat-schedule-shm
+backend/celerybeat-schedule-shm-*
+backend/celerybeat-schedule-wal
+
+# Environment variables
+.env
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+
+# Python bytecode
+backend/app/__pycache__/*
+backend/app/__pycache__/.pyc
+backend/app/api/__pychache__/
+backend/app/api/__pycache__/__init__.cpython-313.pyc
+backend/app/api/__pycache__/filters.cpython-313.pyc
+backend/app/api/__pycache__/integrations.cpython-313.pyc
+backend/app/api/__pycache__/keywords.cpython-313.pyc
+backend/app/api/__pycache__/results.cpython-313.pyc
+backend/app/api/__pycache__/settings.cpython-313.pyc
+backend/app/api/__pycache__/sources.cpython-313.pyc
+backend/app/services/__pycache__/*
+backend/app/services/__pycache__/.pyc
+backend/app/utils/__pycache__/*
+backend/app/utils/__pycache__/.pyc
+backend/parsers/__pycache__/*
+backend/parsers/__pycache__/.pyc
+backend/workers/__pycache__/*
+backend/workers/__pycache__/.pyc
